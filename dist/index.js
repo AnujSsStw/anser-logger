@@ -3,6 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.main = void 0;
 const axios_1 = __importDefault(require("axios"));
 const console_1 = require("console");
 const marked_1 = require("marked");
@@ -33,5 +34,5 @@ const main = async (e) => {
         }));
     });
 };
-exports.default = main;
+exports.main = main;
 //# sourceMappingURL=index.js.map

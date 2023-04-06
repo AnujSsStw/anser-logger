@@ -12,7 +12,7 @@ marked.setOptions({
   renderer: new TerminalRenderer(),
 });
 
-const main = async (e: any) => {
+export const main = async (e: any) => {
   const error = { error: e.stack.split("\n") };
   const err = error.error[0];
 
@@ -44,5 +44,3 @@ const main = async (e: any) => {
     );
   });
 };
-
-export default main;
