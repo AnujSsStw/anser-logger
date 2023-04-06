@@ -1,6 +1,6 @@
 {
-  "name": "node",
-  "version": "1.0.0",
+  "name": "answer-logger",
+  "version": "1.0.1",
   "description": "an answer logger using stackoverflow api",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
