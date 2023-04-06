@@ -20,6 +20,6 @@ try {
   });
 } catch (e) {
   // e is the answer
-  answerLogger.log(e);
+  answerLogger.logger(e);
 }
 ```

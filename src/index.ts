@@ -12,7 +12,7 @@ marked.setOptions({
   renderer: new TerminalRenderer(),
 });
 
-export const main = async (e: any) => {
+export const logger = async (e: any) => {
   const error = { error: e.stack.split("\n") };
   const err = error.error[0];
 
